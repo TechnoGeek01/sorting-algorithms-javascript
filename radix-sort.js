@@ -1,5 +1,5 @@
 function getDigit(num, dig) {
-  return (Math.floor(Math.abs(num)) / Math.pow(10, dig)) % 10;
+  return Math.floor(Math.abs(num) / Math.pow(10, dig)) % 10;
 }
 
 function digitCount(num) {
